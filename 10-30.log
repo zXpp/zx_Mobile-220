@@ -1,0 +1,3 @@
+log:
+手机设备型号标识符将“MeiZu_M2”改为"MeiZu_M2-None",使用数据前要检查一遍是否对应的wav文件、特征文件、scp文件、rttm是否已进行相应更改。
+原因：在MATLAB程序中查找每个标识符对应的样本文件（spker,*.mfcc.*.gmm）时“MeiZu_M2*.mfcc"会包括"MeiZu_M2-Note*.mfcc"所以会出现错误
